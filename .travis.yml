@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 8
+env:
+  global:
+    - NODE_ENV=production
+before_install:
+  # - npm run init
+before_script:
+  # - bower install
+  # - gulp
+  # - npm install
+script:
+  - npm install
